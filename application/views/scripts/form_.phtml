@@ -1,0 +1,25 @@
+<link href="<?php echo $this->baseUrl() . '/css/bootstrap.css'; ?>" media="all" rel="stylesheet" type="text/css" />
+<div align="center">
+<form id="login" action="<?= $this->element->getAction(); ?>"
+method="<?= $this->element->getMethod(); ?>" style="background:#789;width:300px;align:center">
+<div align="left">
+<p>
+E-mail Address<br />
+<?= $this->element->email; ?>
+</p>
+<p>
+Password<br />
+<?= $this->element->pswd; ?>
+</p>
+<p>
+Commentaire <br/>
+</p>
+<p>
+<?= $this->element->txtA; ?>
+</p>
+<p>
+<?= $this->element->submit;  ?>
+</p>
+</div>
+</form>
+</div>

@@ -1,13 +1,16 @@
 <br /><br />
+<link href="<?php echo $this->baseUrl().'/css/bootstrap.css'; ?>" media="all" rel="stylesheet" type="text/css" />
 <div id="view-content">
-<form action="contact" method="post" >
+<form action="contact" method="post" width="700px" >
 <fieldset><legend>User Data</legend>
 <label for="email">Your E-mail Address:</label><br />
 <input type="text" name="email" value="" size="25" /><br />
-<label for="message">Your Message:</label><br />
+<label for="message" >Your Message:</label><br />
 <textarea name="message" cols="30" rows="10"></textarea><br />
-<input type="submit" name="submit" value="Contact Us!" />
+<button class="btn btn-warning" type="submit" >Conn
+</button>
 </fieldset>
 </form>
+<button class="btn btn-primary" type="submit"><i class="icon-white icon-search" style="margin-right:5px"></i>Recherche</button>
 
 </div>

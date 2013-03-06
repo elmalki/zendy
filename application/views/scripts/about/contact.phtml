@@ -1,7 +1,14 @@
+<link href="<?php echo $this->baseUrl().'/css/bootstrap.css'; ?>" media="all" rel="stylesheet" type="text/css" />
 <br /><br />
 <div id="view-content">
 	<h1>Contact Page</h1>
-	<?= $this->email; ?>
-	<br>
-	<?= $this->msg;?>
+
+	<?= $this->user[0]->nom.' '.$this->user[0]->prenom.' Date Embauche : '.$this->user[0]->date_emb; ?>
+	<button class="btn btn-primary" type="submit">Button</button>
+	<button class="btn btn-inverse" type="submit">Button</button>
+	<a href="#" class="btn btn-info"><i class="icon-white icon-ok"></i>Link</a>
+	<button class="btn btn-warning" type="submit">Button</button>
+	<button class="btn btn-success" type="submit">Button</button>
+	<button class="btn btn-danger" type="submit">Button</button>
+    
 </div>
